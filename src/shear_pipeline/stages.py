@@ -8,7 +8,10 @@ import pyarrow.dataset as ds
 import pyarrow.parquet as pq
 # from pyarrow import acero
 
-from scm_pipeline import PipelineStage, data_types
+from scm_pipeline import PipelineStage
+from scm_pipeline.data_types import (
+    Directory,
+)
 
 from pyimcom.config import Config, Settings
 from pyimcom.coadd import Block
