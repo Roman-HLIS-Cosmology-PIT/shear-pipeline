@@ -1,0 +1,4 @@
+numpy
+pyarrow
+scm_pipeline @ git+https://github.com/Roman-HLIS-Cosmology-PIT/scm-pipeline.git@main
+metadetect_driver @ git+https://github.com/Roman-HLIS-Cosmology-PIT/metadetect-driver.git@main
