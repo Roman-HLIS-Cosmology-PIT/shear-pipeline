@@ -26,7 +26,7 @@ class MetadetectStage(PipelineStage):
     name = "metadetect"
     inputs = [
         # ("imcom_config", JSONFile),
-        ("imcom_images", Directory),
+        ("final_output_dir", Directory),  # from IMCOM
     ]
     outputs = [("shear_catalog", Directory)]
     # outputs = [("shear_catalog", ParquetFile)]
